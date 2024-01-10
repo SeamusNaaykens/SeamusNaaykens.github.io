@@ -1,12 +1,15 @@
 // PAINT PROGRAM
 
 function setup() {
-    createCanvas(windowWidth, windowHeight)
-    background(0)
+    createCanvas(400, 300)
 }
 
 function draw() {
-
-    fill(255)
+    noStroke()
+    fill(200)
     circle(mouseX, mouseY, 50)
+}
+
+function mousePressed() {
+    background(0)
 }
